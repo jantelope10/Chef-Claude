@@ -1,5 +1,5 @@
 export async function getRecipeFromChefClaude(ingredientsArr) {
-    const PROXY_URL = "/netlify/functions/get-recipe.js"; 
+    const PROXY_URL = "https://chef-claude-ai-recipe-maker.netlify.app/.netlify/functions/get-recipe";
 
     try {
         const response = await fetch(PROXY_URL, {
